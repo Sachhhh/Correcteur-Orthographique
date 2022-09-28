@@ -4,10 +4,10 @@ Tous les fichiers peuvent etre compilé avec la commande make qui appelle l'ense
 
 Pour effectuer une verifiaction orthograpique du texte livre.txt avec le dictionnaire dico.txt  et l'implémentation I, 
 on utilise la commande suivante: I/bin/verificateur_ortho livre.txt  dico.txt .
-Par exemple, pour utiliser la table de hashage: hastable/bin/verificateur_ortho livre.txt  dico.txt.
+Par exemple, pour utiliser la table de hashage: hastable/bin/verificateur_ortho LIVRE.txt  FR.txt.
 
 Pour connaitre le temps necessaire pour creer le dictionnaire et le temps necessaire pour verifier le texte, 
 on utilise la commande test_temps.
-Par exemple, pour connaitre les performances CPU de l'arbre radix: arbre_radix/bin/test_temps livre.txt  dico.txt.
+Par exemple, pour connaitre les performances CPU de l'arbre radix: arbre_radix/bin/test_temps LIVRE.txt  FR.txt.
 
 
