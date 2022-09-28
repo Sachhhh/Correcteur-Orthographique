@@ -1,0 +1,13 @@
+Chaque dossier correspond à une implémentation. Chaque dossier contient un makefile permettant de générer les executables, 
+un répertoire src contenant les fichiers sources et un répertoire include contenant les fichiers d'en-tête.  
+Tous les fichiers peuvent etre compilé avec la commande make qui appelle l'ensemble des makefiles.
+
+Pour effectuer une verifiaction orthograpique du texte livre.txt avec le dictionnaire dico.txt  et l'implémentation I, 
+on utilise la commande suivante: I/bin/verificateur_ortho livre.txt  dico.txt .
+Par exemple, pour utiliser la table de hashage: hastable/bin/verificateur_ortho livre.txt  dico.txt.
+
+Pour connaitre le temps necessaire pour creer le dictionnaire et le temps necessaire pour verifier le texte, 
+on utilise la commande test_temps.
+Par exemple, pour connaitre les performances CPU de l'arbre radix: arbre_radix/bin/test_temps livre.txt  dico.txt.
+
+
